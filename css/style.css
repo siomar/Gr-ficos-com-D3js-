@@ -1,0 +1,46 @@
+.cloud svg {
+  /* border: 1px solid grey; */
+}
+.flex{
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+}
+.filter { 
+  -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  -ms-filter: grayscale(100%);
+  -o-filter: grayscale(100%);
+  filter: grayscale(100%);
+  filter: grayscale(100%);
+  /* filter: url(grayscale.svg); Firefox 4+ */
+  filter: gray; /* IE 6-9 */
+opacity: 0.35;
+}
+svg{
+  height: 400;
+}
+
+.chart div {
+  font: 10px sans-serif;
+  background-color: steelblue;
+  text-align: right;
+  padding: 3px;
+  margin: 1px;
+  color: white;
+}
+
+#dashboard {
+  
+  width: 550px;
+  /* border-left: 1px solid #aaa; */
+  border-bottom: 1px solid #aaa;
+}
+
+.palavraSelecionada {
+  margin-top: 1%;
+  text-align: center;
+  font-size: 2em;
+  margin-bottom: 10px;
+  font-family: 'Montserrat', sans-serif;
+}
